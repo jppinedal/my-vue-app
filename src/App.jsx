@@ -19,8 +19,8 @@ function App() {
   console.log("characters", characters); // para ver que nos trae la api
   return (
     <>
-      <h1> Rick and Morty as Ruta N botcamp</h1>
-      <p> With React by Juan Pablo Pineda L</p>
+      <h1> Rick and Morty in ruta N botcamp</h1>
+      <p> With React by Juan Pablo Pineda L v:</p>
       <p>Personajes:</p>
 
       <div className="liscar">
