@@ -9,7 +9,7 @@ const url = "https://rickandmortyapi.com/api/character";
 function App() {
   const [characters, setCaracters] = useState();
   useEffect(() => {
-    fetch(url) // fetch es una funcion que hace una peticion a una url
+    fetch(url) 
       .then((res) => res.json()) // res es la respuesta que nos da el servidor
       .then((data) => {
         setCaracters(data.results); // data es la informacion que nos trae el servidor
@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <h1> Rick and Morty in ruta N botcamp</h1>
-      <p> With React by Juan Pablo Pineda L v:</p>
+      <p> With React by Juan Pablo Pineda L v:x|</p>
       <p>Personajes:</p>
 
       <div className="liscar">
