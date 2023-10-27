@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <h1> Rick and Morty in ruta N botcamp</h1>
-      <p> With React by Juan Pablo Pineda L v:x|</p>
+      <p> With React by Juan Pablo Pineda L</p>
       <p>Personajes:</p>
 
       <div className="liscar">
